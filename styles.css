@@ -86,3 +86,38 @@ footer {
   text-align: center;
   padding: 1rem;
 }
+
+.subtitulo {
+  color: #6b7280;
+  margin-top: -0.5rem;
+  margin-bottom: 2rem;
+}
+
+.tarjetas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.tarjeta {
+  background-color: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.tarjeta:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.icono {
+  font-size: 2.5rem;
+}
+
+.tarjeta h3 {
+  color: var(--color-principal);
+  margin: 0.5rem 0;
+}
