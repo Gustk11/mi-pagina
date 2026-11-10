@@ -170,3 +170,35 @@ footer {
 .redes a:hover {
   color: var(--color-acento);
 }
+
+#contacto .tarjetas {
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1rem;
+  }
+
+  nav a {
+    margin: 0 0.75rem;
+  }
+
+  section {
+    padding: 2rem 1rem;
+  }
+
+  #inicio {
+    padding: 3rem 1rem;
+  }
+
+  #inicio h2 {
+    font-size: 1.6rem;
+  }
+
+  #inicio p {
+    font-size: 1rem;
+  }
+}
