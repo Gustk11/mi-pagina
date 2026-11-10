@@ -121,3 +121,17 @@ footer {
   color: var(--color-principal);
   margin: 0.5rem 0;
 }
+
+.producto img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.producto img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+}
