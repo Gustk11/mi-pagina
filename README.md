@@ -1,0 +1,1 @@
+Pagina web para venta de computadoras, soporte técnico y cintas para impresora
