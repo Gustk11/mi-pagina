@@ -138,3 +138,35 @@ footer {
   margin-top: auto;
   text-align: center;
 }
+
+.contacto {
+  text-align: center;
+}
+
+.contacto a {
+  color: var(--color-principal);
+  font-weight: 600;
+  text-decoration: none;
+  overflow-wrap: anywhere;
+}
+
+.contacto a:hover {
+  text-decoration: underline;
+}
+
+.redes {
+  text-align: center;
+  margin-top: 2.5rem;
+}
+
+.redes a {
+  display: inline-block;
+  margin: 0.25rem 0.75rem;
+  color: var(--color-principal);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.redes a:hover {
+  color: var(--color-acento);
+}
